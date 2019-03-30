@@ -540,6 +540,16 @@ button:hover {
 }
 /*End login html css */
 
+.navbar
+{
+	background:#000;
+}
+
+nav li
+{
+	padding-right:10px;
+}
+
 
 
 
