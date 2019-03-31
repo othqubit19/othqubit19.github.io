@@ -242,9 +242,9 @@ div.transbox
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:22px;
+	font-size:18px;
 	font-weight:bold;
-	padding:10px 15px;
+	padding:15px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
 	font-family:'Quicksand',sans-serif;
@@ -271,8 +271,7 @@ div.transbox
 
 .regback
 {
-	background-image:linear-gradient(to bottom, #001060, #1069ce , #110008);
-	background-repeat:no-repaeat;
+	background-image:url(../images/back68.jpg);
 }
 .column {
   float: left;
@@ -404,6 +403,11 @@ button:hover {
 .colourchange
 {
 	color:#000;
+}
+
+#reg .colourchange
+{
+	color:#fff;
 }
 
 /* Login html css */
@@ -539,6 +543,16 @@ button:hover {
     color: rgb(12, 97, 33);
 }
 /*End login html css */
+
+.navbar
+{
+	background:#000;
+}
+
+nav li
+{
+	padding-right:10px;
+}
 
 
 
