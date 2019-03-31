@@ -32,7 +32,7 @@ $(document).ready(function(){
 });
 </script>
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 900px)" href="styles/style1.css" />
-   <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="styles/style2.css" />
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="styles/style2.css" />
 </head>
 
 <body>
@@ -41,8 +41,14 @@ $(document).ready(function(){
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="pull-left" href="#home"><img src = "images/qubitlogo.png"></a>
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 	
+    </button>
+      <a class="pull-left" href="#home"><img src = "images/logo.png" height = "55px" width = "100px"></a>
     </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav" style = "padding-left:20px;">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -53,6 +59,7 @@ $(document).ready(function(){
       <li><a href="#reg"><span class="glyphicon glyphicon-user"></span> Register</a></li>
       <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
+	</div>
   </div>
 </nav>
 
@@ -171,17 +178,17 @@ $(document).ready(function(){
 <span class = "rulescontainer">
 <h3 style="font-family:'Quicksand',sans-serif;"><b><u>Rules</u></b></h3><br>
 <h4><ul>
-<li>One Person can play on only one account. If found playing on multiple accounts, the person will be automatically disqualified.</li><br>
-<li>Caps and Spaces are not allowed. For example, if your answer is "Hello World", enter "helloworld" to proceed to the next level. The answers also do not contain special characters such as '!','#',etc but exceptions are (0,1,2...9).</li><br>
-<li>Beware of spelling mistakes . We do not correct your spellings !</li><br>
+<li style = "font-family:'Quicksand',sans-serif;">One Person can play on only one account. If found playing on multiple accounts, the person will be automatically disqualified.</li><br>
+<li style = "font-family:'Quicksand',sans-serif;">Caps and Spaces are not allowed. For example, if your answer is "Hello World", enter "helloworld" to proceed to the next level. The answers also do not contain special characters such as '!','#',etc but exceptions are (0,1,2...9).</li><br>
+<li style = "font-family:'Quicksand',sans-serif;">Beware of spelling mistakes . We do not correct your spellings !</li><br>
 </ul>
 </h4>
 </span>
 <span class = "rulesforumcontainer">
 <h3 style = "font-family:'Quicksand',sans-serif;"><b><u>Rules related to Forum</u></b></h3><br>
 <h4><ul>
-<li>Anyone other than the moderator is not supposed to give hints on the forum . If found doing so, the person will be disqualified. </li><br>
-<li>Use of abusive language is strictly prohibited . Using rude language with other players and the moderator will also not be tolerated.</li><br>
+<li style = "font-family:'Quicksand',sans-serif;">Anyone other than the moderator is not supposed to give hints on the forum . If found doing so, the person will be disqualified. </li><br>
+<li style = "font-family:'Quicksand',sans-serif;">Use of abusive language is strictly prohibited . Using rude language with other players and the moderator will also not be tolerated.</li><br>
 </ul>
 </h4>
 </span>
@@ -203,7 +210,7 @@ $(document).ready(function(){
 </h5>
 <div class="row">
   <div class="column">
-    <img src="images/srk.jpg" alt="Snow" style="width:100% ; border-radius:5px;">
+    <img src="images/srk.jpg">
 	<p>
 	<center><h5 style="font-family:'Quicksand',sans-serif; line-height:1.6;"><b>Yashodhan Agnihotri</b></h5></center>
 	</p>
@@ -212,7 +219,7 @@ $(document).ready(function(){
 	</p>
   </div>
   <div class="column">
-    <img src="images/srk.jpg" alt="Forest" style="width:100%; border-radius:5px;">
+    <img src="images/srk.jpg">
 	<p>
 	<center><h5 style="font-family:'Quicksand',sans-serif; line-height:1.6;"><b>Darshan Lokhande</b></h5></center>
 	</p>
@@ -221,7 +228,7 @@ $(document).ready(function(){
 	</p>
   </div>
   <div class="column">
-    <img src="images/srk.jpg" alt="Mountains" style="width:100%; border-radius:5px;">
+    <img src="images/srk.jpg">
 	<p>
 	<center><h5 style="font-family:'Quicksand',sans-serif; line-height:1.6;"><b>Sanya Tripathi</b></h5></center>
 	</p>

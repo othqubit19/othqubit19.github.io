@@ -138,9 +138,10 @@ div.right-footer
 .digit{
   display:block;
   font-size:50px;
-  background-color:#237bc4;
+  background-color:#4caeff;
   overflow:hidden;
   color:#18123C;
+  border-radius:30px;
 }
 
 
@@ -220,9 +221,9 @@ div.transbox
 {
 	display:inline-block;
 	background:url(images\nth3.png);
-	 width: 100px;
-  height: 100px;
-  padding: 10px;  
+	width: 100px;
+	height: 100px;
+	padding: 10px;  
 }
 
 .myButton {
@@ -553,6 +554,12 @@ button:hover {
 nav li
 {
 	padding-right:10px;
+}
+
+#team img
+{
+	width:100%;
+	border-radius:5px;
 }
 
 

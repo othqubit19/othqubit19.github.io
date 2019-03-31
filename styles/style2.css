@@ -2,7 +2,7 @@
 
 body
 {
-	padding-top:250px;
+	background-image:url(../images/phoneback.jpg);
 }
 .navbar-fixed-top
 {
@@ -15,11 +15,21 @@ nav
 }
 
 .glow {
+	color:#fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
   font-family:'Quicksand',sans-serif;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #0053b2, 0 0 7px #0053b2, 0 0 8px #0053b2, 0 0 9px #0053b2, 0 0 10px #0053b2;
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px #3188ed, 0 0 6px #3188ed, 0 0 7px #3188ed, 0 0 8px #3188ed, 0 0 9px #3188ed, 0 0 10px #3188ed;
+  }
 }
 
 .myButton {
@@ -257,5 +267,43 @@ div.right-footer
 	overflow:hidden;
 	background:#000;
 }
+
+#about p
+{
+	margin-bottom:35px;
+}
+
+span li
+{
+	line-height:1.2;
+}
+
+.iiitp-box
+{
+	display:none;
+}
+
+.logo-box
+{
+	margin-top:20px;
+}
+
+a.pull-left
+{
+	display:none;
+}
+
+#team .column
+{
+	padding-bottom:80px;
+}
+
+#team img
+{
+	width:100%;
+	border-radius:150px;
+}
+
+
 
 
