@@ -271,7 +271,8 @@ div.transbox
 
 .regback
 {
-	background-image:url(../images/back68.jpg);
+	background-image:url(../images/back33.jpg);
+  background-repeat : no-repeat;
 }
 .column {
   float: left;
